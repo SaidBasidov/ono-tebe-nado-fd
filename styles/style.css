@@ -84,8 +84,7 @@
   z-index: 1;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  min-height: 385px;
+  gap: 20px;
   font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -113,7 +112,6 @@
 }
 
 .description {
-  min-height: 51px;
   z-index: 1;
   margin-top: 106px;
   display: flex;
@@ -252,10 +250,6 @@
   padding: 0 24px;
   grid-template-columns: min-content 693px;
   gap: 72px;
-}
-
-.about__column {
-  min-height: 595px;
 }
 
 .about__logo {
